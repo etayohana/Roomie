@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image_adapter"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/juli"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            app:civ_border_width="10dp"
+            app:civ_border_color="#FFFF"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Julia  Gati"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_below="@id/profile_image_adapter"
+            android:id="@+id/profile_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_name"
+            android:layout_centerHorizontal="true"
+            android:text="22"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/profile_age_dialog" />
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/education"
+            android:layout_below="@+id/profile_age_dialog"
+            android:layout_marginStart="30sp"
+            android:id="@+id/image_gender"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/location"
+            android:layout_below="@+id/image_location"
+            android:layout_marginStart="30sp"
+            android:id="@+id/image_education"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="13dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/information"
+            android:layout_below="@+id/image_education"
+            android:layout_marginStart="30sp"
+            android:id="@+id/image_information"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gender"
+
+            android:layout_below="@+id/image_gender"
+            android:layout_marginStart="30sp"
+            android:id="@+id/image_location"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/text_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_age_dialog"
+            android:layout_marginStart="70dp"
+            android:text="female"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holon"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="70dp"
+            android:layout_below="@id/text_gender"
+            android:id="@+id/text_location"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIT - computer Science"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="70dp"
+            android:layout_below="@id/text_location"
+            android:id="@+id/text_education"
+            android:layout_marginTop="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="etay"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="70dp"
+            android:layout_below="@id/text_education"
+            android:id="@+id/text_information"
+            android:layout_marginTop="14dp"/>
+
+        <!--<ImageView-->
+
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:background="@drawable/ic_edit_black_24dp"-->
+            <!--android:layout_marginTop="130dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginEnd="5dp"-->
+
+
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="69dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="130dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginEnd="18dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="edit"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textColor="#000"-->
+            <!--android:id="@+id/edit1"-->
+            <!--/>-->
+
+
+
+
+
+    </RelativeLayout>
+</FrameLayout>

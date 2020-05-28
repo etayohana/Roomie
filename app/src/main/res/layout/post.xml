@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="296dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="6dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="10dp"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/room_image"
+            android:src="@drawable/roompick"
+            android:scaleType="fitXY"
+
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_profil_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            app:civ_border_width="6dp"
+            app:civ_border_color="#FFF"
+            android:layout_marginTop="120dp"
+
+            />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/user_name_post_in_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text=""
+            android:hint="Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/room_image"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/linarid2"
+            android:background="#0000"
+            android:textAllCaps="false"
+            android:text="@string/see_more"
+            android:id="@+id/btn_to_more"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/linarid"
+            android:id="@+id/linarid2"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 jun"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:id="@+id/post_date_adapt"
+                android:layout_marginStart="55dp"
+                android:textColor="@color/colordetails"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1500 $"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="60dp"
+                android:id="@+id/post_deposit_adapt"
+                android:textColor="@color/colordetails"
+
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="holon"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="75dp"
+                android:id="@+id/post_location_adapt"
+                android:textColor="@color/colordetails"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/card_profil_image"
+            android:id="@+id/linarid"
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/movin"
+                android:layout_marginStart="25dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Move_in"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="2dp"
+
+
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                android:src="@drawable/money"
+                android:layout_marginStart="20dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deposit"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="2dp"
+
+
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/location1"
+                android:layout_marginStart="20dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="2dp"
+
+                />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Room-In</string>
+    <string name="Description">תאור</string>
+    <string name="Feed">לוח פרסום</string>
+    <string name="Floor">קומה</string>
+    <string name="Log_out">התנתק</string>
+    <string name="Move_in">תאריך כניסה:</string>
+    <string name="Number_roomats">מספר שותפים:</string>
+    <string name="Phone">טלפון:</string>
+    <string name="Profile">פרופיל</string>
+    <string name="Rooms">חדרים:</string>
+    <string name="about_me">על עצמי:</string>
+    <string name="age">גיל :</string>
+    <string name="city">עיר/רחוב</string>
+    <string name="cost">מחיר</string>
+    <string name="date">תאריך</string>
+    <string name="deposit">שכר דירה:</string>
+    <string name="education">השכלה:</string>
+    <string name="floor_number">מספר קומה</string>
+    <string name="full_name">שם מלא:</string>
+    <string name="gender">מין :</string>
+    <string name="llocation">מיקום :</string>
+    <string name="location">מיקום:</string>
+    <string name="logged_in">התחבר</string>
+    <string name="number">מספר</string>
+    <string name="please_log_in">התחבר בבקשה</string>
+    <string name="save">שמור</string>
+    <string name="see_more">ראה עוד...</string>
+    <string name="sign_in">התחברות</string>
+    <string name="sign_up">הרשמה</string>
+    <string name="splach">מצא את השותף החדש שלך</string>
+    <string name="enter_more">הכנס מידע נוסף על הדירה/השותף הרצוי.</string>
+    <string name="Full_name_">שם מלא</string>
+    <string name="Mail">מייל</string>
+    <string name="password">סיסמא</string>
+</resources>

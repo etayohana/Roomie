@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="#fff"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#fff"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/addtRoomImage"
+            android:src="@drawable/roommenu"
+            android:scaleType="fitXY"
+
+
+            />
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_camera_alt_black_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:id="@+id/addimage_btn1"
+            />
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/profileback"
+            android:layout_marginTop="120dp"
+            android:id="@+id/gotoprofile1"
+            android:layout_marginStart="10dp"
+
+
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/addProfileimage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            app:civ_border_width="6dp"
+            app:civ_border_color="#FFF"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="120dp"
+
+            />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/post_name_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Name"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:layout_below="@+id/addtRoomImage"
+
+            />
+
+
+
+
+
+        <ScrollView
+            android:layout_width="355dp"
+            android:layout_height="430dp"
+            android:layout_below="@+id/post_name_name"
+            android:layout_marginTop="10dp"
+            android:id="@+id/scroll1"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lin0"
+                    >
+                    <ImageView
+                        android:layout_marginTop="7dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/phonimage"
+                        android:layout_marginStart="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Phone"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <EditText
+
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:inputType="number"
+                        android:maxLength="15"
+                        android:textSize="16sp"
+                        android:id="@+id/post_phone_number"
+                        android:hint="@string/number"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lin0"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/lin1"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/movin"
+                        android:layout_marginStart="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Move_in"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <EditText
+
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:inputType="date"
+                        android:maxLength="15"
+                        android:textSize="16sp"
+                        android:id="@+id/post_date"
+                        android:hint="@string/date"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lin1"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lin2"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/money"
+                        android:layout_marginStart="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/deposit"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <EditText
+
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:inputType="number"
+                        android:maxLength="15"
+                        android:id="@+id/post_deposit"
+                        android:hint="@string/cost"
+                        android:textSize="16sp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lin2"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lin3"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/location1"
+                        android:layout_marginStart="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/location"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <EditText
+
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:textSize="16sp"
+                        android:maxLength="15"
+                        android:id="@+id/post_location"
+                        android:hint="@string/city"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lin3"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lin4"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/numroomats"
+                        android:layout_marginStart="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Number_roomats"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <EditText
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:inputType="date"
+                        android:maxLength="15"
+                        android:id="@+id/post_numberroomats"
+                        android:hint="@string/number"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lin4"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lin5"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/numrooms"
+                        android:layout_marginStart="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rooms"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <EditText
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:inputType="number"
+                        android:maxLength="15"
+                        android:id="@+id/post_rooms"
+                        android:textSize="16sp"
+                        android:hint="@string/number"
+
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lin5"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lin6"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/floor"
+                        android:layout_marginStart="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Floor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <EditText
+
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:inputType="date"
+                        android:maxLength="15"
+                        android:id="@+id/post_floor"
+                        android:hint="@string/floor_number"
+                        android:textSize="16sp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lin6"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lin7"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_info_outline_black_24dp"
+                        android:layout_marginStart="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Description"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-10dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_below="@+id/lin7"
+
+                    android:textSize="16sp"
+                    android:hint="@string/enter_more"
+                    android:maxLines="5"
+                    android:id="@+id/post_information"
+
+                    />
+
+
+                <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:textAllCaps="false"-->
+                <!--android:text="post"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_below="@id/addinformation"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:id="@+id/post"-->
+
+
+
+                <!--/>-->
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

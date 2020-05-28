@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+
+        >
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/roominlogo"
+            android:scaleX="0.7"
+            android:scaleY="0.5"
+
+
+            />
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Sign up:"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_marginStart="110dp"-->
+        <!--android:textSize="20dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:textStyle="bold"-->
+
+
+        <!--/>-->
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/Mail"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:id="@+id/username_input"
+        android:background="@drawable/round_edit_text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/Full_name_"
+        android:gravity="center"
+        android:id="@+id/fullname_input"
+        android:background="@drawable/round_edit_text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/password"
+        android:inputType="number|numberPassword"
+        android:gravity="center"
+        android:background="@drawable/round_edit_text"
+        android:id="@+id/password_input"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Room-In</string>
+    <string name="splach">Find your new romate</string>
+    <string name="please_log_in">please log in</string>
+    <string name="logged_in">logged in</string>
+    <string name="Feed">Feed</string>
+    <string name="Profile">Profile</string>
+    <string name="Log_out">Log Out</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="save">save</string>
+    <string name="Phone">Phone</string>
+    <string name="Move_in">Move - In:</string>
+    <string name="deposit">Deposit:</string>
+    <string name="location">Location:</string>
+    <string name="see_more">See More...</string>
+    <string name="Number_roomats">Number Romates:</string>
+    <string name="Rooms">Rooms:</string>
+    <string name="Floor">Floor:</string>
+    <string name="Description">Description:</string>
+    <string name="date">date</string>
+    <string name="cost">cost</string>
+    <string name="city">city/street</string>
+    <string name="number">number</string>
+    <string name="floor_number">floor number</string>
+    <string name="enter_more">Enter more information about the romate you\'d like to get into your apartment</string>
+    <string name="full_name">full name:</string>
+    <string name="age">age :</string>
+    <string name="gender">gender :</string>
+    <string name="education">education :</string>
+    <string name="llocation">location :</string>
+    <string name="about_me">about me</string>
+    <string name="Mail">Mail</string>
+    <string name="Full_name_">Full Name</string>
+    <string name="password">Password</string>
+</resources>

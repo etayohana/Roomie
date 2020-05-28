@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_sign_up"
+        android:title="@string/sign_up"/>
+
+    <item android:id="@+id/item_sign_in"
+        android:title="@string/sign_in"/>
+
+    <item android:id="@+id/item_feed"
+        android:title="@string/Feed"/>
+
+    <item android:id="@+id/item_profile"
+        android:title="@string/Profile"/>
+
+
+    <item android:id="@+id/item_sign_out"
+        android:title="@string/Log_out"
+        android:visible="false"/>
+
+</menu>
